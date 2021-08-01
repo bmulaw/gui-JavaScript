@@ -1,0 +1,64 @@
+<!-- 
+    Name: Bernard Mulaw
+    Class: GUI 
+    Prof: Weijin Zhou
+    Date: 07/29/2021
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Multiplication Table</title>
+</head>
+<body>
+    <script src="app.js"></script>
+    <h1>
+        Multiplication Table
+    </h1>
+
+    <p>
+        select the start and end numbers for <b>width</b><br>
+        and select the start and endd numbers for <b>height</b>
+    </p>
+    <br><br>
+    <form>
+        <span>
+            <!-- https://www.geeksforgeeks.org/how-to-insert-spaces-tabs-in-text-using-html-css/ -->
+            <label id="fname">Min Width: &emsp; &emsp;
+            <label id="fname">Max Width:</label><br>
+            <input type="text" id="minW" required>  &emsp; &ensp; 
+            <input type="text" id="maxW" required>
+        </span>
+        <br><br><br>
+        <span>
+            <!-- https://www.geeksforgeeks.org/how-to-insert-spaces-tabs-in-text-using-html-css/ -->
+            <label id="fname">Min Height: &emsp; &emsp;
+            <label id="fname">Max Height:</label><br>
+            <input type="text" id="minH" required>  &emsp; &ensp; 
+            <input type="text" id="maxH" required>
+        </span>
+    </form>
+    <button onclick="makeTable()">Make Table</button>
+
+    <table>
+        <tr>
+            <td>
+                
+            </td>
+            <td id="col">
+                
+            </td>
+        </tr>
+        <tr id="row">
+            <td>
+                3
+            </td>
+        </tr>
+        
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+    background-color:papayawhip;
+    font-family: cursive;
+    color: darkgreen;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+    padding-left: 10%;
+    /* padding-right: 40%; */
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    margin: 2% 0px 0px 20%;
+    text-align: center;
+    background-color: black;
+    cursor: pointer;
+    justify-content: inherit;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+label {
+    font-size: 14px;
+}
+
+#minW, #maxW, #minH, #maxH {
+    width: 75px;
+}
+
+table {
+    background-color: burlywood;
+}
